@@ -1,0 +1,34 @@
+<dialogue>
+  <node>
+    <text> Привет, $name$ </text> <endnode>true</endnode>
+  </node>
+  <node>
+    <text> Как дела </text>
+    <answers>
+      <answer tonode = "2">
+        <answertext> Хорошо </answertext>
+      </answer>
+      <answer tonode = "0">
+        <answertext> Плохо </answertext>
+      </answer>
+    </answers>
+  </node>
+  <node>
+    <text> У меня для тебя задание, убей $questCounter$ $questTarget$ </text> <endnode>true</endnode>
+  </node>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</dialogue>
